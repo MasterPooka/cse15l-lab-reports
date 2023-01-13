@@ -12,4 +12,5 @@
 4. Open Windows Powershell and type "ssh cs15lwi23(your course specific account letters here)@ieng6.ucsd.edu"
 5. The shell will show a message asking if you want to connect, say yes and press enter.
 ![Image](https://masterpooka.github.io/cse15l-lab-reports/host.png)
-https://github.com/MasterPooka/cse15l-lab-reports/blob/main/host.png
+6. After typing yes and pressing enter, your connection should be successful and this is what it should look like on your terminal.
+![Image](https://masterpooka.github.io/cse15l-lab-reports/all.png)
