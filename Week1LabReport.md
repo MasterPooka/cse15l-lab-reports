@@ -19,4 +19,4 @@
 1. After setting up the SSh connection, it is time to try out some commands.
 2. Some general commands include cd, ls, pwd, mkdir, and cp.
 3. In this next example, the commands ls and cd are demonstrated.
-4. ![Image](https://masterpooka.github.io/cse15l-lab-reports/try.png)
+![Image](https://masterpooka.github.io/cse15l-lab-reports/try.png)
