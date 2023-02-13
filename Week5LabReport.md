@@ -52,6 +52,7 @@ The -c command pulls the number of occurrences of the specified string within a 
 The -L command shows all files that do not contain the specified string, unlike -l, which shows all files that does contain the specified string.
 
 **grep -e**
+---
 ```$ grep -e "and" -e "the" -l *
         CH4.txt
         ch1.txt
