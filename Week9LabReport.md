@@ -11,12 +11,11 @@ less Command
 **less -jn**
 ---
 ```
-$ less -j6 written_2/travel_guides/berlitz1/HandRIbiza.txt
+$ less -j5 written_2/travel_guides/berlitz1/HandRIbiza.txt
         Recommended Hotels
         The establishments listed below offer a cross-section of
         local restaurants, and should convince you that not everything on the
         island comes with chips (french fries).
-        The star rating in brackets after each entry refers to the
 ```
 ```
 $ less -j-6 written_2/travel_guides/berlitz1/HandRIbiza.txt
@@ -50,10 +49,7 @@ $ less -N written_2/travel_guides/berlitz1/HandRHongKong.txt
      12         shopping malls.
 ```
 ```
-$ less -N -j10 written_2/travel_guides/berlitz1/HandRHongKong.txt
-     12         shopping malls.
-     13         Reservations are strongly recommended, particularly in
-     14         summer and at Christmas. If you do arrive without making advance
+$ less -N -j15 written_2/travel_guides/berlitz1/HandRHongKong.txt
      15         arrangements, the Hong Kong Hotel Reservation Center at the
      16         International Airport will be happy to arrange accommodations for you
      17         on your arrival.
@@ -80,7 +76,7 @@ $ less -b160 written_2/travel_guides/berlitz1/HandRHawaii.txt
         Aston Waikiki Sunset $$$ 229 Paoakalani Avenue, Honolulu, HI
         96815; Tel. (808) 922-2700 or (800) 336-5599; fax (808) 922-8785;
         <www.aston-hotels.com>. One of Aston’s many condominium resort
-        properties, this modern high-rise has large rooms with complete 
+        properties, this modern high-rise has large rooms with complete
 ```
 ```
 $ less -b-1 written_2/travel_guides/berlitz1/HandRHawaii.txt
@@ -88,7 +84,7 @@ $ less -b-1 written_2/travel_guides/berlitz1/HandRHawaii.txt
         Aston Waikiki Sunset $$$ 229 Paoakalani Avenue, Honolulu, HI
         96815; Tel. (808) 922-2700 or (800) 336-5599; fax (808) 922-8785;
         <www.aston-hotels.com>. One of Aston’s many condominium resort
-        properties, this modern high-rise has large rooms with complete 
+        properties, this modern high-rise has large rooms with complete
 ```
 
 The "less" program can be launched at a particular line number by using the "-bn" option.
@@ -98,5 +94,24 @@ The default behavior of "less" is to view files from the very beginning. However
 **less -Dxcolor**
 ---
 ```
-$ 
+$ less -N -j20 --color=Nblue written_2/travel_guides/berlitz1/HandRHongKong.txt
+     20         occupancy, with bath or shower. Unless otherwise noted, hotels take all
+     21         major credit cards. A 10% service charge and 5% government tax will be
+     22         added to the bill.
+     23         $$$$above HK$2,500
+     24         $$$HK$l,600 to HK$2,500
+     25         $$HK$950 to HK$1,600
+     26         $below HK$950
+     
 ```
+```
+$ less --color=Bred written_2/travel_guides/berlitz1/HandRHawaii.txt
+        Oahu (Including Honolulu)
+        Aston Waikiki Sunset $$$ 229 Paoakalani Avenue, Honolulu, HI
+        96815; Tel. (808) 922-2700 or (800) 336-5599; fax (808) 922-8785;
+        <www.aston-hotels.com>.
+```
+
+The "less" command's "-Dxcolor" option enables syntax highlighting for a number of file formats, including source code files.
+
+When viewing a file with "less," the text often appears as plain text without any styling or highlighting. However if you choose the "-Dxcolor" option, "less" will highlight the words in the text, which can emphasize certain words or phrases.
