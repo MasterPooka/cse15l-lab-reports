@@ -115,6 +115,7 @@ $ less --color=Bred written_2/travel_guides/berlitz1/HandRHawaii.txt
 The "less" command's "-Dxcolor" option enables syntax highlighting for a number of file formats, including source code files.
 
 When viewing a file with "less," the text often appears as plain text without any styling or highlighting. However if you choose the "-Dxcolor" option, "less" will highlight the words in the text, which can emphasize certain words or phrases.
+
 ---
 
 I re-enacted lab report 3 by choosing a second command to explore several options related to the second command. This is similar to lab report 3 because I had a different command to explore. I did this task in a different way by choosing to explore the options of the less command in this lab report rather than exploring more options of the grep command in lab report 3.
